@@ -1,0 +1,32 @@
+.page-box {
+  position: relative;
+  height: 100%;
+  background-image: url(./images/bg.png);
+  background-size: cover;
+
+  .login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 330px;
+    padding: 0 30px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, .2);
+
+    h2 {
+      margin-top: 30px;
+      text-align: center;
+      color: #fff;
+      letter-spacing: 5px;
+      font-size: 30px;
+    }
+
+    .btns {
+      float: right;
+      margin-right: 20px;
+    }
+  }
+}
+

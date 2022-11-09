@@ -1,0 +1,43 @@
+.my-main {
+  height: 100vh;
+
+  .my-header {
+    height: 80px;
+    line-height: 80px;
+    background-color: #000c17;
+
+    h2 {
+      float: left;
+      color: #fff;
+    }
+
+    .header-a {
+      float: right;
+
+      a {
+        display: inline-block;
+        padding: 0 15px;
+        line-height: 80px;
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.5s;
+
+        &:hover {
+          color: red;
+        }
+      }
+    }
+  }
+
+  .avatar-box {
+    margin: 20px 0;
+    text-align: center;
+
+    h3 {
+      margin: 15px 0;
+      font-size: 15px;
+      color: #fff;
+    }
+  }
+}
+

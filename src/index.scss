@@ -1,0 +1,17 @@
+html, body, #root {
+  height: 100%;
+}
+
+.content-box {
+  width: 100%;
+  height: 100%;
+
+  .card-box {
+    margin-top: 30px;
+  }
+}
+
+.btn-warning {
+  border: none !important;
+  background-color: darkorange !important;
+}
